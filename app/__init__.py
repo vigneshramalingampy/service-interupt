@@ -22,7 +22,6 @@ def create_app():
 
 app: FastAPI = create_app()
 
-
 @app.get("/")
 async def root():
     return JSONResponse(
